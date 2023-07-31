@@ -59,15 +59,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GUIs\sound.cs" />
+    <Compile Include="Assets\Scripts\SpikesKill.cs" />
     <Compile Include="Assets\Scripts\GUIs\audiomanager.cs" />
-    <Compile Include="Assets\Scripts\Game\Map\PlatformController.cs" />
+    <Compile Include="Assets\Scripts\PlatformController.cs" />
     <Compile Include="Assets\Scripts\GUIs\musicsetting.cs" />
-    <Compile Include="Assets\Scripts\Utils\Debugger.cs" />
     <Compile Include="Assets\Scripts\GUIs\settingdisplay.cs" />
     <Compile Include="Assets\Scripts\GUIs\loading.cs" />
+    <Compile Include="Assets\Scripts\Debugger.cs" />
     <Compile Include="Assets\Scripts\GUIs\musicimg.cs" />
     <Compile Include="Assets\Scripts\GUIs\mainmenu.cs" />
-    <Compile Include="Assets\Scripts\Game\Player.cs" />
+    <Compile Include="Assets\Scripts\enemyPatrol.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\spikesMoving.cs" />
     <Compile Include="Assets\Scripts\GUIs\bightness.cs" />
   </ItemGroup>
   <ItemGroup>
