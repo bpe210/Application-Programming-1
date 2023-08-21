@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Rigidbody2D rb;
 
+  
+
     [SerializeField]
     private Collider2D headCollider;
 
@@ -214,7 +216,9 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetKeyDown(jumpKey) && jumpAbleCount > 0 && (!IsFalling() || isClimbing))
+            
             jump = true;
+        
 
         if (Input.GetKey(crouchKey))
         {
@@ -310,4 +314,5 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    
 }
